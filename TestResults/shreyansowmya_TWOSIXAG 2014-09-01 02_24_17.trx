@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cdf0987a-7cd3-4e38-9f66-50937739216a" name="shreyansowmya@TWOSIXAG 2014-09-01 02:24:17" runUser="twosixag\shreyansowmya" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d6b52016-2952-41ce-93c4-d23e9e59ad95">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="shreyansowmya_TWOSIXAG 2014-09-01 02_24_17">
+      <DeploymentItem filename="C:\temp\training\abc-bank\abc-bank\bin\Debug\abc-bank.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-01T02:24:17.3756990-04:00" queuing="2014-09-01T02:24:18.1897456-04:00" start="2014-09-01T02:24:18.2407485-04:00" finish="2014-09-01T02:26:20.2080268-04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="6" executed="6" passed="5" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="TWOSIXAG" outcome="Error" timestamp="2014-09-01T02:26:20.1924268-04:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestOneDepositToMaxiSavingsAccount" storage="c:\temp\training\abc-bank\abc-banktests\bin\debug\abc-banktests.dll" id="dbfe0902-cd13-28b6-a7c1-a0b0903bac1c">
+      <Execution id="a12f77c2-d4a1-48c5-900e-d6b81321ac82" />
+      <TestMethod codeBase="C:/temp/training/abc-bank/abc-bankTests/bin/Debug/abc-bankTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="abc_bankTests.BankTests, abc-bankTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneDepositToMaxiSavingsAccount" />
+    </UnitTest>
+    <UnitTest name="TestOneDepositAndTotal" storage="c:\temp\training\abc-bank\abc-banktests\bin\debug\abc-banktests.dll" id="a9952bc1-f26e-c1bc-166d-0eda2e726ce0">
+      <Execution id="7445c977-1948-4759-9d51-e808fed7b00d" />
+      <TestMethod codeBase="C:/temp/training/abc-bank/abc-bankTests/bin/Debug/abc-bankTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="abc_bankTests.BankTests, abc-bankTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneDepositAndTotal" />
+    </UnitTest>
+    <UnitTest name="TestOneDepositWithdrawalAndTotal" storage="c:\temp\training\abc-bank\abc-banktests\bin\debug\abc-banktests.dll" id="bc3bd5e0-1838-00d0-4d62-d39fd32dd612">
+      <Execution id="98e6cbe8-5632-4a2a-b4eb-6f9a0438a019" />
+      <TestMethod codeBase="C:/temp/training/abc-bank/abc-bankTests/bin/Debug/abc-bankTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="abc_bankTests.BankTests, abc-bankTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneDepositWithdrawalAndTotal" />
+    </UnitTest>
+    <UnitTest name="TestOneDepositToSavingsAccount" storage="c:\temp\training\abc-bank\abc-banktests\bin\debug\abc-banktests.dll" id="35e42c63-e786-4abb-c311-f0995526bce9">
+      <Execution id="ce0e8b15-276e-489c-9b12-b37b24ff32f9" />
+      <TestMethod codeBase="C:/temp/training/abc-bank/abc-bankTests/bin/Debug/abc-bankTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="abc_bankTests.BankTests, abc-bankTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOneDepositToSavingsAccount" />
+    </UnitTest>
+    <UnitTest name="TestOpenThreeAccounts" storage="c:\temp\training\abc-bank\abc-banktests\bin\debug\abc-banktests.dll" id="828d7b9d-e038-3d41-4792-2b0fc2fbe10f">
+      <Execution id="311e1b7c-8a74-4114-8113-6b6510f3bf19" />
+      <TestMethod codeBase="C:/temp/training/abc-bank/abc-bankTests/bin/Debug/abc-bankTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="abc_bankTests.BankTests, abc-bankTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOpenThreeAccounts" />
+    </UnitTest>
+    <UnitTest name="TestNoDepositTotalZero" storage="c:\temp\training\abc-bank\abc-banktests\bin\debug\abc-banktests.dll" id="3185a329-4b7e-5ce6-5b39-9fd77dd8d3f0">
+      <Execution id="1e2dd82d-0599-446b-97e2-aa0e4eaccc1b" />
+      <TestMethod codeBase="C:/temp/training/abc-bank/abc-bankTests/bin/Debug/abc-bankTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="abc_bankTests.BankTests, abc-bankTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNoDepositTotalZero" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3185a329-4b7e-5ce6-5b39-9fd77dd8d3f0" executionId="1e2dd82d-0599-446b-97e2-aa0e4eaccc1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9952bc1-f26e-c1bc-166d-0eda2e726ce0" executionId="7445c977-1948-4759-9d51-e808fed7b00d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc3bd5e0-1838-00d0-4d62-d39fd32dd612" executionId="98e6cbe8-5632-4a2a-b4eb-6f9a0438a019" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="828d7b9d-e038-3d41-4792-2b0fc2fbe10f" executionId="311e1b7c-8a74-4114-8113-6b6510f3bf19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35e42c63-e786-4abb-c311-f0995526bce9" executionId="ce0e8b15-276e-489c-9b12-b37b24ff32f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbfe0902-cd13-28b6-a7c1-a0b0903bac1c" executionId="a12f77c2-d4a1-48c5-900e-d6b81321ac82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1e2dd82d-0599-446b-97e2-aa0e4eaccc1b" testId="3185a329-4b7e-5ce6-5b39-9fd77dd8d3f0" testName="TestNoDepositTotalZero" computerName="TWOSIXAG" duration="00:00:00.0237901" startTime="2014-09-01T02:24:18.2727503-04:00" endTime="2014-09-01T02:24:19.2168043-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e2dd82d-0599-446b-97e2-aa0e4eaccc1b">
+    </UnitTestResult>
+    <UnitTestResult executionId="7445c977-1948-4759-9d51-e808fed7b00d" testId="a9952bc1-f26e-c1bc-166d-0eda2e726ce0" testName="TestOneDepositAndTotal" computerName="TWOSIXAG" duration="00:00:00.0798944" startTime="2014-09-01T02:24:19.2298050-04:00" endTime="2014-09-01T02:24:19.3188101-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7445c977-1948-4759-9d51-e808fed7b00d">
+    </UnitTestResult>
+    <UnitTestResult executionId="98e6cbe8-5632-4a2a-b4eb-6f9a0438a019" testId="bc3bd5e0-1838-00d0-4d62-d39fd32dd612" testName="TestOneDepositWithdrawalAndTotal" computerName="TWOSIXAG" duration="00:00:00.0013162" startTime="2014-09-01T02:24:19.3328109-04:00" endTime="2014-09-01T02:24:19.3418114-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98e6cbe8-5632-4a2a-b4eb-6f9a0438a019">
+    </UnitTestResult>
+    <UnitTestResult executionId="311e1b7c-8a74-4114-8113-6b6510f3bf19" testId="828d7b9d-e038-3d41-4792-2b0fc2fbe10f" testName="TestOpenThreeAccounts" computerName="TWOSIXAG" duration="00:00:00.0017235" startTime="2014-09-01T02:24:19.3518120-04:00" endTime="2014-09-01T02:24:19.3628126-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="311e1b7c-8a74-4114-8113-6b6510f3bf19">
+    </UnitTestResult>
+    <UnitTestResult executionId="ce0e8b15-276e-489c-9b12-b37b24ff32f9" testId="35e42c63-e786-4abb-c311-f0995526bce9" testName="TestOneDepositToSavingsAccount" computerName="TWOSIXAG" duration="00:00:00.0010866" startTime="2014-09-01T02:24:19.3698130-04:00" endTime="2014-09-01T02:24:19.3798136-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce0e8b15-276e-489c-9b12-b37b24ff32f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="a12f77c2-d4a1-48c5-900e-d6b81321ac82" testId="dbfe0902-cd13-28b6-a7c1-a0b0903bac1c" testName="TestOneDepositToMaxiSavingsAccount" computerName="TWOSIXAG" duration="00:02:00.8222128" startTime="2014-09-01T02:24:19.3858140-04:00" endTime="2014-09-01T02:26:20.2080268-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a12f77c2-d4a1-48c5-900e-d6b81321ac82">
+    </UnitTestResult>
+  </Results>
+</TestRun>

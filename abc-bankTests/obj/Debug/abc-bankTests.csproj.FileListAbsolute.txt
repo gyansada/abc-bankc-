@@ -1,0 +1,7 @@
+C:\temp\training\abc-bank\abc-bankTests\bin\Debug\abc-bankTests.dll
+C:\temp\training\abc-bank\abc-bankTests\bin\Debug\abc-bankTests.pdb
+C:\temp\training\abc-bank\abc-bankTests\bin\Debug\abc-bank.dll
+C:\temp\training\abc-bank\abc-bankTests\bin\Debug\abc-bank.pdb
+C:\temp\training\abc-bank\abc-bankTests\obj\Debug\abc-bankTests.csprojResolveAssemblyReference.cache
+C:\temp\training\abc-bank\abc-bankTests\obj\Debug\abc-bankTests.dll
+C:\temp\training\abc-bank\abc-bankTests\obj\Debug\abc-bankTests.pdb

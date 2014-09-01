@@ -1,0 +1,7 @@
+C:\temp\training\abc-bank\abc-bankConsolee\bin\Debug\abc-bankConsolee.exe
+C:\temp\training\abc-bank\abc-bankConsolee\bin\Debug\abc-bankConsolee.pdb
+C:\temp\training\abc-bank\abc-bankConsolee\bin\Debug\abc-bank.dll
+C:\temp\training\abc-bank\abc-bankConsolee\bin\Debug\abc-bank.pdb
+C:\temp\training\abc-bank\abc-bankConsolee\obj\x86\Debug\abc-bankConsolee.exe
+C:\temp\training\abc-bank\abc-bankConsolee\obj\x86\Debug\abc-bankConsolee.pdb
+C:\temp\training\abc-bank\abc-bankConsolee\obj\x86\Debug\abc-bankConsolee.csprojResolveAssemblyReference.cache

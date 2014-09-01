@@ -1,0 +1,4 @@
+C:\temp\training\abc-bank\abc-bank\bin\Debug\abc-bank.dll
+C:\temp\training\abc-bank\abc-bank\bin\Debug\abc-bank.pdb
+C:\temp\training\abc-bank\abc-bank\obj\Debug\abc-bank.dll
+C:\temp\training\abc-bank\abc-bank\obj\Debug\abc-bank.pdb
